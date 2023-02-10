@@ -238,7 +238,7 @@
       return;
     }
 
-    window.location.replace(demangled_path);
+    window.history.replaceState(null, "", demangled_path);
   }
 </script>
 
